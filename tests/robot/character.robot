@@ -4,8 +4,8 @@ Test Template  TestCharacterInitWithName
 Library        CharacterLibrary.py
 
 *** Test Cases ***    DEFAULT_NAME  Name
-Default name when none  Default     None
-Accept name when given  Blank       Dorian
+test_init             Default       None
+test_init             Blank         Dorian
 
 *** Keywords ***
 TestCharacterInitWithName
