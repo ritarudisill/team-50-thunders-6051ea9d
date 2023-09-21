@@ -3,9 +3,9 @@ Documentation  I want to create my character and give it a name that the player 
 Test Template  TestCharacterInitWithName
 Library        CharacterLibrary.py
 
-*** Test Cases ***        DEFAULT_NAME  Name
-test_init_with_default    MyName        0
-test_init_with_name       0             Dorian
+*** Test Cases ***        CharacterName
+test_init_with_default    MyName
+test_init_with_name       Dorian
 
 *** Keywords ***
 TestCharacterInitWithName
