@@ -1,12 +1,13 @@
+from unittest import TestCase
 from levelup.character import Character
 
-class TestCharacterWithName(Character):
-    def test_with_default(Character):
+class TestCharacterWithName(TestCase):
+    def test_with_default(self):
         DEFAULT_NAME = "MyName"
         testobj = Character(DEFAULT_NAME)
         self.assertEqual(DEFAULT_NAME, testobj.name)
 
-    def test_with_name(Character):
+    def test_with_name(self):
         name: String
         name = "Dorian"
         testobj = Character(name)
