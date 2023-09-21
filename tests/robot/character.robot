@@ -9,8 +9,7 @@ test_init_with_name       Dorian
 
 *** Keywords ***
 TestCharacterInitWithName
-    [Arguments]      ${DEFAULT_NAME}      ${name}
-    Test Character Init With Name     ${DEFAULT_NAME}
-    Test Character Init With Name     ${name}
+    [Arguments]      ${characterName}
+    Test Character Init With Name     ${characterName}
 
 
