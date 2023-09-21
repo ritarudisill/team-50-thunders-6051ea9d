@@ -7,6 +7,7 @@ class TestCharacterInitWithName(Character):
         self.assertEqual(DEFAULT_NAME, testobj.name)
 
     def test_init_with_name(Character):
+        name: String
         name = "Dorian"
         testobj = Character(name)
         self.assertEqual(name, testobj.name)
