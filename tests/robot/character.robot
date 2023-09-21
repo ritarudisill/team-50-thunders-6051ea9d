@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation  I want to create my character. 
 Test Template  Create character
-Library        CreateCharacterLibrary.py
+Library        test_character.py
 
 *** Test Cases ***    DEFAULT_NAME  Name
 Default name when none  Default     None
