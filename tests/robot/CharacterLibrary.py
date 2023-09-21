@@ -1,3 +1,5 @@
+from levelup.character import Character
+
 class TestCharacterInitWithName(self):
     def test_init(self):
         DEFAULT_NAME = "MyName"
