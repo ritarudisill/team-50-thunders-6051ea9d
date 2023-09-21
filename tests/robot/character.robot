@@ -9,8 +9,8 @@ test_init             Null          Dorian
 
 *** Keywords ***
 TestCharacterInitWithName
-  [Arguments]  ${DEFAULT_NAME}  ${name}
-TestCharacterInitWithName ${DEFAULT_NAME}
-TestCharacterInitWithName ${name}
+    [Arguments]  ${DEFAULT_NAME}  ${name}
+    TestCharacterInitWithName ${DEFAULT_NAME}
+    TestCharacterInitWithName ${name}
 
 
