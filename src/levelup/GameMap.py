@@ -23,9 +23,13 @@ class GameMap:
     def getPositions(self):
         pass
 
-    def calculatePositions(self,start_x,start_y, Direction) -> None:
+    def calculatePositions(self,start_x,start_y, direction) -> None:
         self.start_x=start_x
         self.start_y=start_y
+        if direction == "E":
+            start_y += 1
+
+
         pass
 
     def isPositionValid(self: bool) -> None:

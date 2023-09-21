@@ -9,4 +9,12 @@ class TestGameMap(TestCase):
     def test_init(self):
         testObj = GameMap()
         assert testObj.status != None
+
         
+class TestCalculatePosition(GameMap):
+    def test_init_(GameMap):
+        start_x  = 1
+        start_y = 1
+        direction = "E"
+        testobj = calculatePositions(start_x,start_y, direction)
+        self.assertEqual(start_x,start_y, direction)
