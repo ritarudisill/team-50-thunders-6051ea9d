@@ -1,6 +1,6 @@
 from levelup.character import Character
 
-class TestCharacterWithName():
+class TestCharacterWithName(Character):
     def test_with_default(Character):
         DEFAULT_NAME = "MyName"
         testobj = Character(DEFAULT_NAME)
