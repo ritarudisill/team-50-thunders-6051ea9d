@@ -1,4 +1,4 @@
-class TestCharacterInitWithName():
+class TestCharacterInitWithName:
     def test_init(self):
         DEFAULT_NAME = "MyName"
         testobj = Character(DEFAULT_NAME)
