@@ -13,3 +13,8 @@ class TestCharacterWithName(TestCase):
         testobj = Character(name)
         self.assertEqual(name, testobj.name)
         
+    def getName(self):
+        name: String
+        name = "Dorian"
+        testobj = Character(name)
+        self.assertEqual(name, testobj.name)
