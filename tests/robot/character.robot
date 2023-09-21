@@ -10,7 +10,7 @@ Accept name when given  Blank       Dorian
 *** Keywords ***
 TestCharacterInitWithName
   [Arguments]  ${default_name}  ${name}
-Initialize character  ${default_name}
-Initialize character with ${name}
+Create character  ${default_name}
+Create character  ${name}
 
 
