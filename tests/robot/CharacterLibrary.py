@@ -11,3 +11,4 @@ class TestCharacterInitWithName(Character):
         name = "Dorian"
         testobj = Character(name)
         self.assertEqual(name, testobj.name)
+        
