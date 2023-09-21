@@ -8,7 +8,7 @@ Default name when none  Default     None
 Accept name when given  Blank       Dorian
 
 *** Keywords ***
-Create character
+TestCharacterInitWithName
   [Arguments]  ${default_name}  ${name}
 Initialize character  ${default_name}
 Initialize character with ${name}
