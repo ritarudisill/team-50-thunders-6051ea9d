@@ -15,7 +15,7 @@ class TestCharacterWithName(TestCase):
         
     def getName(self):
         name: String
-        name = "Dorian"
+        name = input("Input")
         testobj = Character(name)
         self.assertEqual(name, testobj.name)
 
