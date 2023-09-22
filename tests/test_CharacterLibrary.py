@@ -18,3 +18,9 @@ class TestCharacterWithName(TestCase):
         name = "Dorian"
         testobj = Character(name)
         self.assertEqual(name, testobj.name)
+
+    def enterMap(GameMap):
+        MapName: String
+       # MapName = ""
+        testobj = map(MapName)
+        self.assertEqual(MapName, testobj.MapName) 
