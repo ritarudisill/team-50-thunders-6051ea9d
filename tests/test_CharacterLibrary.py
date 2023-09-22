@@ -24,3 +24,13 @@ class TestCharacterWithName(TestCase):
        # MapName = ""
         testobj = map(MapName)
         self.assertEqual(MapName, testobj.MapName) 
+
+    def getPosition():
+        Position: String
+        testobj = String(Position)
+        self.assertEqual(Position, testobj.Position)
+
+    def move(Direction): 
+        Direction: String
+        testobj = Direction(Direction)
+        self.assertEqual(Direction, testobj.Direction)
