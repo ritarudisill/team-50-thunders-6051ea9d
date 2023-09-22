@@ -27,12 +27,20 @@ class GameMap:
         self.start_x=start_x
         self.start_y=start_y
         if direction == "E":
-            start_y += 1
+            self.start_y += 1
 
-
+        if direction == "W":
+            self.start_x -= 1
         pass
 
-    def isPositionValid(self: bool) -> None:
+    def isPositionValid(self,start_x,start_y) -> bool:
+        self.start_x=start_x
+        self.start_y=start_y
+        if (self.start_x <= 0) or (self.start_y <= 0):
+            return False
+
+
+
         pass
 
     def getTotalPositions(self, direction: int) -> None:
